@@ -6,10 +6,8 @@ def play(input)
 
     if input == computerGuess.to_s
       puts 'You guessed the correct number!'
-      exit
     else
       puts "The computer guessed #{computerGuess}"
-      exit
     end
 
   end
